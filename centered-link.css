@@ -1,6 +1,8 @@
+div:has(> .autoplayVideo) {
+  display: flex;
+  justify-content: center;
+}
+
 .centeredLink {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
 }
