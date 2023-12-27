@@ -1,6 +1,8 @@
-.autoplayVideo {
-  width: calc(100% + 33px);
-  height: 100%;
+@media (min-width: 941px) {
+  .autoplayVideo {
+    width: calc(100% + 33px);
+    height: 100%;
+  }
 }
 
 @media (max-width: 940px) {
