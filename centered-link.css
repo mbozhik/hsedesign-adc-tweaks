@@ -1,4 +1,4 @@
-div:has(> .autoplayVideo) {
+div:has(> .centeredLink) {
   display: flex;
   justify-content: center;
 }
