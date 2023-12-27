@@ -3,7 +3,8 @@
   height: 100%;
 }
 
-#autoplayVideo {
-  width: calc(100% + 33px);
-  height: 100%;
+@media (max-width: 940px) {
+  div:has(> div > .autoplayVideo) {
+    padding: 0 !important;
+  }
 }
