@@ -3,6 +3,10 @@
   height: 100%;
 }
 
+div:has(> .autoplayVideo) {
+  display: flex;
+}
+
 @media (min-width: 941px) {
   .autoplayVideo {
     width: calc(100% + 33px);
@@ -13,10 +17,5 @@
   div:has(> div > .autoplayVideo) {
     padding: 0;
     max-width: 100%;
-  }
-
-  div:has(> .autoplayVideo) {
-    display: flex;
-    padding: 20px;
   }
 }
