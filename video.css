@@ -10,8 +10,13 @@
 }
 
 @media (max-width: 940px) {
-  div:has(> .colored-block-text > .autoplayVideo) {
-    padding: 0 !important;
+  div:has(> div > .autoplayVideo) {
+    padding: 0;
     max-width: 100%;
+  }
+
+  div:has(> .autoplayVideo) {
+    display: flex;
+    padding: 20px;
   }
 }
