@@ -6,5 +6,6 @@
 @media (max-width: 940px) {
   div:has(> .colored-block-text > .autoplayVideo) {
     padding: 0 !important;
+    max-width: 100%;
   }
 }
