@@ -9,7 +9,7 @@ div:has(> .autoplayVideo) {
 
 @media (min-width: 941px) {
   .autoplayVideo {
-    width: calc(100% + 33px);
+    width: calc(100% + 44px);
   }
 }
 
