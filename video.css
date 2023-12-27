@@ -1,0 +1,4 @@
+.autoplayVideo {
+  width: calc(100% + 33px);
+  height: 100%;
+}
