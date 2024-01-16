@@ -1,3 +1,16 @@
 iframe {
   border: 0;
 }
+
+@media (min-width: 941px) {
+  iframe {
+    width: calc(100% + 44px);
+  }
+}
+
+@media (max-width: 940px) {
+  div:has(> div > iframe) {
+    padding: 0;
+    max-width: 100%;
+  }
+}
