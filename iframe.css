@@ -9,7 +9,7 @@ iframe {
 
   div:has(> div > div > iframe.wide) {
     width: 1186px;
-    margin-left: -173px;
+    margin-left: -149px;
   }
 
   div:has(> div > iframe.wide) {
