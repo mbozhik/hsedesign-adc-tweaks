@@ -3,6 +3,7 @@ div:has(> p > .centeredLink) {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 6px;
 }
 
 .centeredLink {
