@@ -3,18 +3,24 @@ iframe {
 }
 
 @media (min-width: 941px) {
+  div:has(> div > iframe.wide) {
+    max-width: 100%;
+    padding: 0;
+  }
+  
   iframe:not(.wide) {
     width: calc(100% + 44px);
   }
 
   div:has(> div > div > iframe.wide) {
-    width: 1186px;
-    margin-left: -149px;
+    width: 1152px;
+    margin-left: -132px;
   }
+}
 
-  div:has(> div > iframe.wide) {
-    max-width: 100%;
-    padding: 0;
+@media (min-width: 1441px) {
+  div:has(> div > div > iframe.wide) {
+    margin-left: 0;
   }
 }
 
