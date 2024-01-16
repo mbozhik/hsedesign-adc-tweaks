@@ -7,8 +7,14 @@ iframe {
     width: calc(100% + 44px);
   }
 
-  div:has(> div > iframe.wide) {
+  div:has(> div > div > iframe.wide) {
     width: 1186px;
+    margin-left: -173px;
+  }
+
+  div:has(> div > iframe.wide) {
+    max-width: 100%;
+    padding: 0;
   }
 }
 
