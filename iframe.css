@@ -6,6 +6,10 @@ iframe {
   iframe {
     width: calc(100% + 44px);
   }
+
+  div:has(> div > iframe.wide) {
+    width: 1186px;
+  }
 }
 
 @media (max-width: 940px) {
