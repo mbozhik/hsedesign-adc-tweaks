@@ -1,3 +1,3 @@
 ```html
-<link rel="stylesheet" type="text/css" href="https://zakharday.github.io/hsedesign-adc-tweaks/*.css">
+<link rel="stylesheet" type="text/css" href="https://mbozhik.github.io/hsedesign-adc-tweaks/*.css">
 ```
